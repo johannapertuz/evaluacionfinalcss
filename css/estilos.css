@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'DancingScript';
+  src: url('DancingScript.ttf');
+}
+
+body{
+  background-color: black;
+  font-family: 'DancingScript';
+
+}
+a{
+  color: white;
+}
+
+#subrayado{
+  text-decoration: none;
+}
+
+#subrayado1{
+  text-decoration: none;
+}
+#subrayado2{
+  text-decoration: none;
+}
+
+#cabecera{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  display: flex;
+}
+
+#titulo h1{
+  text-align: left;
+  text-shadow: 0 0 2px #02010a;
+  margin-top: 50px;
+
+}
+
+#menu{
+  margin-top: auto;
+  margin-left: auto ;
+
+}
+
+#central{
+  text-align: center;
+  background-color: #82c3a6;
+}
+
+#central img{
+  width: 80%;
+  height: 50%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#secundaria{
+  background-color: #d5c75f;
+  display: flex;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+
+#secundaria div{
+  width: 50%;
+  margin-top: 1.5%;
+}
+
+#paisajes img, #retratos img{
+    width: 80%;
+    box-shadow: 2px 2px 2px black;
+}
+
+#retratos img:hover{
+    transform: translate(20px,-5px);
+    box-shadow: 2px 2px 2px #82c3a6;
+    border: 2px solid black;
+}
+#paisajes img:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px 2px #82c3a6;
+    border: 2px solid black;
+}
+footer{
+background-color: #C6d5c5;
+display: flex;
+flex-direction: row;
+border-radius: 0 0 10px 10px;
+text-align: center;
+}
+
+.columna{
+display: flex;
+flex-direction: column;
+padding-left: 8%;
+color: black;
+margin-bottom: 1%;
+}
+
+footer img{
+margin: auto;
+}
+
+article{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #d5c75f;
+}
+
+article img{
+  width: 30%;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 900px){
+ #contenido {
+ width: 900px;
+ margin: 0 auto;
+ }
+}
+
+@media screen and (max-width: 899px) {
+  #contenido {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #secundaria{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  #secundaria div{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2.5%;
+
+  }
+  #paisajes img, #retratos img{
+      width: 80%;
+      box-shadow: 2px 2px 2px black;
+  }
+  #retratos img:hover{
+      transform: translate(20px,-5px);
+      box-shadow: 2px 2px 2px #82c3a6;
+      border: 2px solid black;
+  }
+  #paisajes img:hover{
+      transform: rotate(10deg);
+      box-shadow: 2px 2px 2px #82c3a6;
+      border: 2px solid black;
+  }
+
+  #cabecera{
+    display: flex;
+    flex-direction: column;
+    margin: center;
+  }
+  #titulo h1{
+    text-shadow: 0 0 2px #02010a;
+    margin-right: auto;
+    text-align: center;
+  }
+  #menu{
+    margin-top: auto;
+    margin: 0 auto;
+    display: flex;
+
+  }
+
+  article{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: column;
+  }
+
+  article img{
+    width: 70%;
+    margin: 10px;
+    border: 1px solid black;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    margin: center;
+  }
+}

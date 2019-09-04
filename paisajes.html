@@ -1,0 +1,83 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,user-scalable=no">
+  <title>Comenzando con la Fotografia</title>
+	<link rel="stylesheet" href="css/estilos.css">
+  <style media="screen">
+    .img1{
+      -webkit-filter: blur(10px);
+      filter:blur(10px);
+    }
+    .img246{
+      -webkit-filter: grayscale(100%);
+      filter:grayscale(100%);
+    }
+    .img3{
+      -webkit-filter: sepia(90%);
+      filter:sepia(90%);
+    }
+    #contenido{
+      animation-name: slidein;
+      animation-duration: 3s;
+    }
+    @keyframes slidein {
+    0% {margin-top: 150%;}
+    60% {margin-top: -5%;}
+    100% {margin-top: 0%;}
+    }
+  </style>
+</head>
+<body>
+    <div id="contenido">
+    <header>
+        <section id="cabecera">
+          <div id="titulo">
+          <h1>Comenzando con los paisajes</h1>
+          </div>
+          <div id="menu">
+          <a href="index.html" target="_blank">Incio &nbsp</a>
+          <a id="subrayado1" href="paisajes.html" target="_blank">Paisajes &nbsp</a>
+          <a href="retratos.html" target="_blank">Retratos</a>
+         </div>
+        </section>
+      </header>
+      <section>
+        <article>
+          <img class= "img1" src="imagen\paisaje4.jpg" title="Imágen paisaje1">
+          <img class= "img246" src="imagen\paisaje4.jpg" title="Imágen paisaje2">
+          <img class= "img3" src="imagen\paisaje4.jpg" title="Imágen paisaje3">
+        </article>
+        <article>
+          <img class= "img246" src="imagen\paisaje4.jpg" title="Imágen paisaje4">
+          <img src="imagen\paisaje4.jpg" title="Imágen paisaje5">
+          <img class= "img246" src="imagen\paisaje4.jpg" title="Imágen paisaje6">
+        </article>
+      </section>
+      <footer>
+          <div class="columna">
+            <h1>Contacto</h1>
+            <p><u>info@fotografia.com</u><br/>
+              Calle 72 con 45<br/>
+              3008421548</p>
+          </div>
+          <div class="columna">
+            <h1>Términos</h1>
+            <p>Conoce nuestros términos y condiciones...</p>
+          </div>
+          <div class="columna">
+            <h1>Redes Sociales</h1>
+            <p>Comparte en nuestras redes<br/>
+               <img src="imagen/facebook.png" alt="facebook" width="20" height="20"><br/>
+               <img src="imagen/instagram.jpg" alt="instagram" width="20" height="20"><br/>
+               <img src="imagen/twitter.png" alt="twitter" width="20" height="20">
+            </p>
+          </div>
+          <div class="columna">
+            <h1>Derechos</h1>
+            <p><img src="imagen/copy.png" alt="copy" width="20" height="20">Genny Johanna Pertuz Badillo - 2019</p>
+          </div>
+      </footer>
+    </div>
+  </body>
+  </html>
